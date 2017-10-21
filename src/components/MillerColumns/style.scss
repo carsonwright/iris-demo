@@ -1,0 +1,31 @@
+:local(.open){
+  position: absolute;
+  padding: 4px 6px;
+  font-size: 10px;
+  color: #aaa;
+  right: 0px;
+}
+:local(.itemName){
+  text-align: left;
+  padding: .5em 1em;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  :local(.open){
+    background-color:#333438;
+  }
+}
+:local(.itemFocused){
+  background-color: #c9daf9;
+  color: #000;
+  :local(.open){
+    background-color: #c9daf9;
+    color: #333438
+  }
+}
+:local(.pie){
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}

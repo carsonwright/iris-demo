@@ -5,9 +5,33 @@
   vertical-align: middle;
 }
 :local(.iris){
-  color: #b2e612;
+  color: #71e612;
   font-size: 1.8em;
   margin-top: -10px;
   display: inline-block;
   vertical-align: middle;
+}
+:local(.nav){
+  display:inline;
+  float:right;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  li{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+  }
+}
+:local(.profile){
+  width: 30px;
+  border-radius: 50%;
+  height: 30px;
+  overflow: hidden;
+  display: inline;
+  float:right;
+  margin-top: -5px;
+  margin-right: 13px;
+  img{
+    width: 120%;
+  }
 }

@@ -1,0 +1,135 @@
+:local(.backContainer){
+  width: 100%;
+  height: 100%;
+  :local(.backItem){
+    width: 100%;
+    height: 203px;
+    background-color: #151618;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    :local(.label){
+      color: #828386;
+      position: absolute;
+      top: 50%;
+      margin-top: -10px;
+      width: 100%;
+    }
+    :local(.backBurnerPositions){
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      width: 100%;
+      height: 100%;
+      margin-right: -2px;
+      td{
+        background-color: rgba(37, 42, 48, 0.68);
+      }
+    }
+  }
+}
+
+:local(.currentItem){
+  vertical-align: top;
+  display: inline-block;
+  background-color: #080808;
+  width: 100%;
+  height: 203px;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  :local(.currentName){
+    margin-top: 1em;
+    width: 100%;
+    b{
+      color: #92f2a2;
+    }
+    :local(.getInfo){
+      font-size: 2em;
+      color: #9fa3b9;
+      cursor: pointer;
+      &:hover{
+        color: #4f9eff
+      }
+      vertical-align: middle;
+    }
+    :local(.complete){
+      font-size: 3em;
+      color: #828386;
+      cursor: pointer;
+      vertical-align: middle;
+      margin-right: 8px;
+      &:hover{
+        color:#92f2a2
+      }
+    }
+    :local(.recordTimeContainer){
+      text-align: left;
+      padding-left: 1em;
+      :local(.stopRecordingTime){
+        color: #c91010;
+        cursor: pointer;
+      }
+      :local(.recordTime){
+        font-size: 1.2em;
+        vertical-align: middle;
+        color: #871212;
+        cursor: pointer;
+        &:hover{
+          color: #c91010
+        }
+      }
+    }
+  }
+}
+:local(.feedContainer){
+  width: 100%;
+  height: 100%;
+  background-color: #27282d;
+  :local(.workLabel){
+    font-weight: 800;
+    font-size: 1.2em;
+    padding-top: 3em;
+    text-align: center;
+    color: #828386;
+  }
+  :local(.feed){
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    box-sizing: border-box;
+    :local(.feedItem){
+      background-color: #1a1b1f;
+      b{
+        color: #e9eb85;
+      }
+      padding: .5em 1em;
+      margin: .3em;
+    }
+  }
+}
+:local(.mainContainer){
+  height: 100%;
+  position: relative;
+}
+:local(.currentDescription){
+  padding: 1em;
+  background-color: #111010;
+  height: 203px;
+  position: absolute;
+  box-sizing: border-box;
+  bottom: 0px;
+  b{
+    color: #92f2a2;
+  }
+}
+:local(.open){
+  color: #828386;
+  margin: 0px 10px;
+}

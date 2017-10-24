@@ -1,0 +1,15 @@
+:local(.info){
+  padding: 1em;
+  padding-top: 0px;
+  text-align: center;
+}
+:local(.title){
+  text-align: center;
+  color: #92f2a2;
+}
+:local(.description){
+  padding: 1em;
+  b{
+    color: rgb(146, 242, 162);
+  }
+}

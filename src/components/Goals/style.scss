@@ -17,15 +17,22 @@
   }
 }
 :local(.itemFocused){
-  background-color: #c9daf9;
-  color: #000;
+  background-color: #2657a1;
+  color: #fff;
   :local(.open){
-    background-color: #c9daf9;
-    color: #333438
+    background-color: #2657a1;
+    color: #ffffff
   }
 }
 :local(.pie){
   width: 20px;
+  height: 20px;
   display: inline-block;
   vertical-align: middle;
+  .fa-check{
+    color: #92f2a2;
+  }
+  .fa-circle-o{
+    color:rgb(13, 13, 14);
+  }
 }

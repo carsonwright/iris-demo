@@ -32,21 +32,26 @@ class MyGoals extends Component {
               <tbody>
                 <tr>
                   <td>
-                  </td>
-                  <td>
+                    <b>Back Burner Slot</b>
                   </td>
                 </tr>
                 <tr>
                   <td>
+                    <b>Back Burner Slot</b>
                   </td>
+                </tr>
+                <tr>
                   <td>
+                    <b>Back Burner Slot</b>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>Back Burner Slot</b>
                   </td>
                 </tr>
               </tbody>
             </table>
-            <div className={style.label}>
-              <b>Back Burner</b>
-            </div>
           </div>
         </div>
         <SplitPane split='vertical' defaultSize={310}>

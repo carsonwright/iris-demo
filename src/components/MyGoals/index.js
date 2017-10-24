@@ -84,6 +84,10 @@ class MyGoals extends Component {
                 </div>
               ))}
               <div className={style.currentItem}>
+                <i
+                  className={`fa fa-chevron-left ${style.backBurnerArrow}`}
+                  aria-hidden='true'
+                />
                 <div className={style.currentName}>
                   {this.props.items[1].name}
                   &nbsp;

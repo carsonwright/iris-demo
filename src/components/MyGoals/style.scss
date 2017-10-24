@@ -45,6 +45,17 @@
   box-sizing: border-box;
   text-align: center;
   position: relative;
+  :local(.backBurnerArrow){
+    position: absolute;
+    left: 6px;
+    top: 50%;
+    font-size: 2em;
+    margin-top: -.5em;
+    cursor: pointer;
+    &:hover{
+      color: #0099ff;
+    }
+  }
   :local(.currentName){
     margin-top: 1em;
     width: 100%;
